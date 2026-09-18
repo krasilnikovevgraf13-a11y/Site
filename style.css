@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+header{
+    background: rgb(151, 255, 65) ;
+}
+.container{
+    margin: 0 auto;
+    width: 1024px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .container .links{
+    display: flex;
+    gap: 20px;
+    color: blue;
+    font-size: 18px;
+}
+header h1{
+    font-size: 30px;
+}
+.welcome .container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    background: url(https://abrakadabra.fun/uploads/posts/2022-01/1643276179_1-abrakadabra-fun-p-fon-igrovoi-tematiki-1.jpg);
+    background-size: cover;
+    color: white;
+    height: 640px;
+    border-radius: 24px;
+    margin-top: 60px;
+}
+.welcome h2{
+    font-size: 60px;
+    line-height: 62px;
+    letter-spacing: 0.5px;
+}
+.welcome p{
+    font-size: 24px;
+    color: rgb(255, 141, 141);
+    letter-spacing: 2px;
+}
+.welcome button{
+    margin-top: 16px;
+    width: fit-content;
+    background-color: rgb(248, 248, 255);
+    color: rgb(70, 180, 253);
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 16px 32px;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px red;
+     transition: .3s;
+}
+header a:hover{
+    color: white;
+    transition: .3s;
+}
+.welcome button:hover{
+    color: black;
+    background-color: cadetblue;
+    transition: .4s;
+    cursor: pointer;
+    box-shadow: 0 2px 20px rosybrown;
+    transition: .3s;
+}
+.category .container{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+.category .container .cat{
+    width: 100%;
+}
+.category img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+.carousel img{
+    height: 500px;
+    object-fit: cover;
+}
+.carousel h5, .carousel p{
+    color: rgb(250, 8, 8);
+}
