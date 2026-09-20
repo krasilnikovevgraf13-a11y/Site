@@ -7,12 +7,9 @@
     color: inherit;
     font-size: inherit;
 }
-header{
-    background: rgb(151, 255, 65) ;
-}
-.container{
-    margin: 0 auto;
-    width: 1024px;
+img {
+  float: left; /* Выравниваем изображение по левому краю */
+  margin: 0 20px 20px 0; /* Отступы: сверху, справа, снизу, слева */
 }
 header .container{
     display: flex;
