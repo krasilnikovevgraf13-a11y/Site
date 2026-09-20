@@ -22,7 +22,7 @@ header .container .links{
     display: flex;
     gap: 20px;
     color: blue;
-    font-size: 18px;
+    font-size: 25px;
 }
 header h1{
     font-size: 30px;
@@ -36,7 +36,8 @@ header h1{
     background: url(https://abrakadabra.fun/uploads/posts/2022-01/1643276179_1-abrakadabra-fun-p-fon-igrovoi-tematiki-1.jpg);
     background-size: cover;
     color: white;
-    height: 640px;
+    width: 1200px;
+    height: 800px;
     border-radius: 24px;
     margin-top: 60px;
 }
@@ -66,14 +67,7 @@ header a:hover{
     color: white;
     transition: .3s;
 }
-.welcome button:hover{
-    color: black;
-    background-color: cadetblue;
-    transition: .4s;
-    cursor: pointer;
-    box-shadow: 0 2px 20px rosybrown;
-    transition: .3s;
-}
+
 .category .container{
     display: flex;
     gap: 16px;
