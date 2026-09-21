@@ -88,3 +88,30 @@ header a:hover{
 .carousel h5, .carousel p{
     color: rgb(250, 8, 8);
 }
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.contact-list li {
+  margin-bottom: 8px;
+}
+
+.contact-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 15px;
+}
