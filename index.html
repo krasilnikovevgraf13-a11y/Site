@@ -27,40 +27,68 @@
                 <p>Я только учусь</p>
             </div>
             <form action="My progect.html">
-            <button type="submit" class="btn-center">Мои проекты</button>
+            <button type="submit" class="btn">Мои проекты</button>
             </form>
              <form action="Услуги.html">
-            <button type="submit" class="btn-right">Услуги</button>
+            <button type="submit" class="btn">Услуги</button>
             </form>
             <form action="Оставить заявки.html">
-            <button type="submit" class="btn-left"> Оставить заявку </button>
+            <button type="submit" class="btn"> Оставить заявку </button>
             </form>
         </div>
     </section>
-    <section>
-        <header>
-            <h1 style="text-align: center;">Обо мне</h1>
-            <div>
-  <img src="it.png" alt="Описание картинки"
-       width="400px" height="200px"
-       style="float: left; margin: 0 20px 20px 0;">
-  <p>Всем привет! Меня зовут Евграф мне 17.<br>
-      Я учусь в колледже на Разработчика ПО
-      или разработчик программного обеспечения.<br>
-      Уже знаю основы таких языков как Python и HTML.
-      Сейчас на втором куре начали изучать языки как C++ и Java.<br>
-      Здесь я буду выкладывать свои проекты и возможно брать заказы на верстку сайтов и тд.</p>
-            </div>
-        </header>
-    </section>
-    <footer class="site-footer">
+    <section class="about-section">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="it.png" alt="Программист за работой">
+    </div>
+    <div class="about-content">
+      <h1 style="text-align: center;">Обо мне</h1>
+      <p>
+        Всем привет! Меня зовут Евграф мне 17.<br>
+        Я учусь в колледже на разработчик программного обеспечения.<br>
+        Уже знаю основы таких языков как Python и HTML. <br>
+          Сейчас на втором куре начали изучать языки как C++ и Java.<br>
+        Здесь я буду выкладывать свои проекты и возможно брать заказы на верстку сайтов и тд.
+      </p>
+    </div>
+  </div>
+</section>
+<section class="cards-section">
+  <div class="card">
+    <h3>Python</h3>
+    <p>Знаю базовый синтаксис немного ООП работал с библеотекой tkinter и работал с файловой системой</p>
+  </div>
+  <div class="card">
+    <h3>HTML/CSS</h3>
+    <p>Понимаю базовый HTML могу создать небольшой сайт без CSS и его я тоже изучаю</p>
+  </div>
+  <div class="card">
+    <h3>C++</h3>
+    <p>Изучаю базовый синтакси условия типы данных циклы</p>
+  </div>
+  <div class="card">
+    <h3>Java</h3>
+    <p>Только начал изучать особо ничего не знаю</p>
+  </div>
+</section>
+<footer class="site-footer">
   <div class="footer-content">
-    <p>Связь со мной:</p>
-    <ul class="contact-list">
-      <li>✉️ <a href="mailto:info@example.com">evgrafkr@gmail.com</a></li>
-      <li>✉️️️<a href="https://t.me/drixfan">Мой тг</a></li>
-    </ul>
-    <p class="copyright">© Сайт создан в 2026 году</p>
+    <p style="text-align: center; margin-bottom: 10px;">Связь со мной:</p>
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="width: 12px; height: 12px; background: #ccc; display: inline-block;"></span>
+        <a href="mailto:evgrafkr@gmail.com" style="color: #fff; text-decoration: none;">evgrafkr@gmail.com</a>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="width: 12px; height: 12px; background: #ccc; display: inline-block;"></span>
+        <a href="https://t.me/drixfan" style="color: #fff; text-decoration: none;">Мой тг</a>
+      </div>
+    </div>
+    <p class="copyright" style="text-align: center; margin-top: 20px; opacity: 0.8;">
+      © Сайт создан в 2026 году
+    </p>
   </div>
 </footer>
 </body>
