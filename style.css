@@ -191,7 +191,6 @@ header a:hover{
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px; /* Расстояние между карточками */
 }
-
 /* Стиль карточки */
 .card {
   background-color: #ffffff;
@@ -205,19 +204,16 @@ header a:hover{
   justify-content: space-between;
   height: 100%; /* Чтобы все карточки были одной высоты */
 }
-
 /* Эффект при наведении (без JS) */
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-
 .card h3 {
   margin-top: 0;
   color: #3a0efd;
   font-size: 20px;
 }
-
 .card p {
   color: #666;
   line-height: 1.5;

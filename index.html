@@ -12,6 +12,7 @@
       font-family: Verdana, "Times New Roman", sans-serif;
       font-size: 18px;
     }
+
   </style>
 </head>
 <body>
@@ -27,13 +28,13 @@
                 <p>Я только учусь</p>
             </div>
             <form action="My progect.html">
-            <button type="submit" class="btn">Мои проекты</button>
+            <button type="submit" class="btn" onclick="loadPage('My progect.html')">Мои проекты</button>
             </form>
-             <form action="Услуги.html">
-            <button type="submit" class="btn">Услуги</button>
+             <form action="Service.html">
+            <button type="submit" class="btn" onclick="loadPage('Services.html')">Услуги</button>
             </form>
-            <form action="Оставить заявки.html">
-            <button type="submit" class="btn"> Оставить заявку </button>
+            <form action="About.html">
+            <button type="submit" class="btn" onclick="loadPage('About.html')"> Оставить заявку </button>
             </form>
         </div>
     </section>
@@ -91,5 +92,6 @@
     </p>
   </div>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
